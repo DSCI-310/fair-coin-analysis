@@ -17,12 +17,48 @@
       "Hash": "0ae44a9cee07cf7af8af200557daf204",
       "Requirements": []
     },
+    "cowsay": {
+      "Package": "cowsay",
+      "Version": "0.8.0",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "3c5fdcb12517c29280e6e66f77f77803",
+      "Requirements": [
+        "crayon",
+        "fortunes",
+        "rmsfact"
+      ]
+    },
+    "crayon": {
+      "Package": "crayon",
+      "Version": "1.4.2",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "0a6a65d92bd45b47b94b84244b528d17",
+      "Requirements": []
+    },
+    "fortunes": {
+      "Package": "fortunes",
+      "Version": "1.5-4",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "d031a520bc2c989180c772dbc6851088",
+      "Requirements": []
+    },
     "renv": {
       "Package": "renv",
       "Version": "0.15.2",
       "Source": "Repository",
       "Repository": "CRAN",
       "Hash": "206c4ef8b7ad6fb1060d69aa7b9dfe69",
+      "Requirements": []
+    },
+    "rmsfact": {
+      "Package": "rmsfact",
+      "Version": "0.0.3",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "9e53733ec853fb8e5f2c74420c66e10b",
       "Requirements": []
     }
   }
