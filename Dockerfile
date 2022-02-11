@@ -1,3 +1,4 @@
 FROM rocker/tidyverse
 
-RUN Rscript -e "install.packages('binom')"
+RUN install2.r --error --skipinstalled --ncpus -1 \
+    binom
