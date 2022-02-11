@@ -1,4 +1,4 @@
-FROM rocker/tidyverse
+FROM ubcdsci/jupyterlab
 
 ENV RENV_VERSION 0.15.2-2
 RUN R -e "install.packages('remotes', repos = c(CRAN = 'https://cloud.r-project.org'))"
